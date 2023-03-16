@@ -37,8 +37,8 @@ class DashboardPage extends StatelessWidget {
           selectedItemColor: Colors.redAccent,
           onTap: controller.changeTabIndex,
           currentIndex: controller.tabIndex,
-          showSelectedLabels: false,
-          showUnselectedLabels: false,
+          showSelectedLabels: true,
+          showUnselectedLabels: true,
           type: BottomNavigationBarType.fixed,
           items: [
             _bottomNavigationBarItem(icon: CupertinoIcons.home, label: 'Home'),
